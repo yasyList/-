@@ -1,0 +1,244 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;} 
+#header{
+	background:none;
+	background-image: none!important;
+}
+#wrapper{
+	background: none!important;
+	bottom: 0!important;
+}
+.header_top{
+	width: 100%;
+	position: relative;
+}
+.header_top a{
+	left: 0;
+	display: block;
+	top: 20px!important;
+	margin-top: 8px!important;
+	height: 30px;
+	transform: scale(0.4);
+	float: left;
+}
+.header_top a:nth-of-type(2){
+	float: right;
+	transform: scale(0.35);
+	margin:6px 0 0 25px;
+}
+.header_top span{
+	display: inline-block;
+	margin:10px;
+	left: 60px;
+	position: absolute;
+	color:#333;
+	font-size: 18px;
+	width: auto!important;
+}
+.list{
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc
+}
+.list ul{
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+.list ul li{
+	display: inline-block;
+	width: 85px;
+	height: 35px;
+	text-align: center;
+	position: relative;
+}
+.list ul li a{
+	color:#A2A2A2;
+	font-size: 15px;
+}
+.list ul li span{
+	width: 20%;
+	height: 3px;
+	background-color: #493F4A;
+	position: absolute;
+	display: block;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+}
+#list li{
+	background: none;
+	border: none!important;
+}
+.active a{
+	color:#49484E!important;
+}
+.cuserver{
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+}
+.cuserver ul{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	text-align:center;
+	margin:0 auto;
+}
+.cuserver ul li{
+	flex:1;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.cuserver ul li:nth-of-type(1){
+	margin-left: 20px;
+}
+.cuserver ul li:nth-of-type(4) a{
+	width: 100%;
+	display: block;
+	height: 100%;
+	padding:0;
+	background: url(../images/tc_ic_course_filter_unselected.png)no-repeat!important;
+	background-size: auto 70%!important;
+	background-position: 28px 8px!important;
+}
+
+.cuserver ul li a{
+	font-size: 14px;
+	line-height: 50px;
+	padding:10px;
+	position: relative;
+	color:#adadad;
+}
+.cuserver ul li a i{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background:url(../images/tc_icon_course_selector.png)no-repeat;
+	right: -5px;
+	background-size: 10px auto;
+	top: 15px;
+	display: block;
+}
+.imgbgc ul{
+	width: 100%;
+}
+.imgbgc li{
+	width: 95%;
+	margin-top: 5px!important;
+	height: 100px;
+	position: relative;
+	margin:0 auto;
+	background-color: #dd0000;
+	background:url(../images/banner1.png)no-repeat;
+	background-size: cover;
+}
+.imgbgc li:nth-of-type(2){
+	background:url(../images/bg_share_card_cycling.png)no-repeat;
+	background-size: cover;
+}
+.imgbgc li:nth-of-type(3){
+	background:url(../images/bg_share_card_training.png)no-repeat;
+	background-size: cover;
+}
+.imgbgc li:nth-of-type(4){
+	background:url(../images/bg_share_card_treadmill.png)no-repeat;
+	background-size: cover;
+}
+.imgbgc li:nth-of-type(5){
+	background:url(../images/2019-07-04_161117.png)no-repeat;
+	background-size: cover;
+}
+.imgbgc li p{
+	font-size: 25px;
+	padding:10px 0 5px 15px;
+	color:#fff;
+}
+.imgbgc li p:nth-of-type(2){
+	font-size: 12px;
+	padding-top:0;
+}
+
+.imgbgc li span{
+	position: absolute;
+	bottom: 6px;
+	padding-left: 15px;
+	color:#fff;
+	letter-spacing: 1px;
+	display: block!important;
+}
+.imgbgc li span strong{
+	font-weight: bold;
+	font-size: 15px;
+}
+#footer {
+	width: 100%;
+	height: 1.30667rem;
+	border-top: 1px solid darkgray;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	padding: 50;
+	background: none!important;
+	background-image: none!important;
+	display: flex;
+	padding-bottom: 10px;
+}
+
+#footer a {
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	color: darkgray;
+}
+
+#footer a span {
+	display: block;
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0.1333rem auto 0.04rem;
+}
+
+#footer p {
+	font-size: 0.35667rem;
+}
+
+#footer a.community span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../images/icon_community_filled_dark_gray.png);
+}
+
+#footer a.search span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../images/icon_follow_filled_normal.png);
+}
+
+#footer a.sports span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../images/icon_sports_filled_focus.png);
+}
+
+#footer a.plan span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../images/icon_suit_tab_filled_gray.png);
+}
+
+#footer a.my span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../images/icon_user_filled_normal.png);
+}

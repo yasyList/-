@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<script type="text/javascript" src="js/flexible.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/iscroll.css">
+	<link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<h6>探索</h6>
+		<a href="">
+			<img src="images/icon_search_lined_dark.png" alt="" />
+		</a>
+	</div>
+	<div id="wrapper">
+		<div id="scroller">
+			<div class="list">
+				<ul>
+					<li class="active"><a href="">课程与挑战</a><span></span></li>
+					<li><a href="">运动上次</a></li>
+					<li><a href="">健康轻食</a></li>
+					<li><a href="">硬件商店</a></li>
+					<li><a href="">Keepland</a></li>
+				</ul>
+			</div>
+			<section class="imgbanner">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				        	<img src="images/banner01.png" alt="" />
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="images/banner02.png" alt="" />
+				        </div>
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination"></div>
+				</div>
+			</section>
+
+			<section class="imgHome">
+				<ul>
+					<li><a href="">
+						<img src="images/su_training_entrance_all.png" alt="" /></a>
+						<span>找课程</span>
+					</li>
+					<li><a href="">
+						<img src="images/su_training_entrance_mine.png" alt="" /></a>
+						<span>找课程</span>
+					</li>
+					<li><a href="">
+						<img src="images/tc_icon_food_library.png" alt="" /></a>
+						<span>找课程</span>
+					</li>
+					<li><a href="">
+						<img src="images/tc_icon_food_classify.png" alt="" /></a>
+						<span>找课程</span>
+					</li>
+				</ul>
+			</section>
+
+
+			<section class="list_as">
+				<header class="plist">
+					<p>热门课程分类</p>
+					<a href="">
+						<img src="images/icon_more.png" alt="" />
+					</a>
+				</header>
+
+				<div class="menus">
+					<li><a href="">减脂</a></li>
+					<li><a href="">瑜伽</a></li>
+					<li><a href="">有氧操</a></li>
+					<li><a href="">学生专属</a></li>
+					<li><a href="">腹肌马甲线</a></li>
+					<li><a href="">无器械</a></li>
+					<li><a href="">为你推荐</a></li>
+				</div>
+
+			</section>
+
+
+			
+			<section class="list_as">
+				<header class="plist">
+					<p>课程专题</p>
+				</header>
+
+				<ul class="start">
+					<div class="headerfont">
+						<h3>本周最受欢迎 Top 5</h3>
+						<p>更新于 7 月 1 日</p>
+						<img src="images/tc_icon_more_in_circle.png" alt="" />
+					</div>
+					<div class="bom_imgList">
+						<li>
+							<img src="images/001.png" alt="" />
+							<h5>HIIT适应·全身燃动</h5>
+							<p>K1 零基础 · 15 分钟</p>
+						</li>
+						<li>
+							<img src="images/002.png" alt="" />
+							<h5>HIIT适应·全身燃动</h5>
+							<p>K1 零基础 · 15 分钟</p>
+						</li>
+						<li>
+							<img src="images/003.png" alt="" />
+							<h5>HIIT适应·全身燃动</h5>
+							<p>K1 零基础 · 15 分钟</p>
+						</li>
+					</div>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<div id="footer">
+			<a href="#" class="community ">
+				<span></span>
+			    <p>社区</p>
+			</a>
+			
+			<a href="#" class="search">
+				<span></span>
+			    <p>搜索</p>
+			</a>
+			
+			<a href="#" class="sports">
+				<span></span>
+			    <p>运动</p>
+			</a>
+			
+			<a href="#" class="plan">
+				<span></span>
+			    <p>计划</p>
+			</a>
+			
+			<a href="#" class="my">
+				<span></span>
+			    <p>我</p>
+			</a>
+			
+		</div>
+	<script>        
+  	var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  })        
+  </script>
+</body>
+</html>
